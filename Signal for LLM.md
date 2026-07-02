@@ -62,8 +62,8 @@ Modulator 不是推理模型。
 Modulator 可以非常小。
 甚至最小实现，
 只输出：
-+
--
++，
+-，
 0
 真正重要的不是输出形式。
 而是：
@@ -125,8 +125,7 @@ Signal for LLM 的最小实验不验证 TGR。
 运行时状态调制是否能够形成可学习的连续影响。
 一个理论上的最小实现：
 Modulator 输出：
-+
--
++，-
 固定算法：
 + ：增加本轮 Context Window
 - ：减少本轮 Context Window
